@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is cricket project</h1>
+    <div class="cricket">
+        <button onclick="
+        chosebat=true;
+
+       
+    var   cbc=Math.random()*3;
+    var computerstumps;
+    var computerbat;
+    var computerball;
+        if(cbc>=0 && cbc<=1)
+        computerbat=true;
+
+        else if(cbc>1 && cbc<=2)
+        computerball=true;
+        if(cbc>2 && cbc<=3)
+        computerstumps=true;
+        if(computerstumps) console.log('you lost');
+        if(computerbat)console.log('you win');
+        ">Bat</button>
+        <button onclick=" 
+        choseball=true;
+        var  cbc=Math.random()*3;
+        if(cbc>=0 && cbc<=1)
+        computerbat=true;
+        else if(cbc>1 && cbc<=2)
+        computerball=true;
+        if(cbc>2 && cbc<=3)
+        computerstumps=true;
+
+        
+        ">Ball</button>
+
+        <button onclick="
+        console.log('click on stumps')">Stumps</button>
+
+
+
+    </div>
+    <script>
+    
+        if(computerstumps)console.log('user click on ball');
+        else if(chosebat) console.log('user click on bat');
+
+    </script>
+</body>
+</html>
